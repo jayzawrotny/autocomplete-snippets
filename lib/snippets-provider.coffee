@@ -1,7 +1,7 @@
 module.exports =
 class SnippetsProvider
   selector: '*'
-  disableForSelector: '.comment, .string'
+  disableForSelector: 'string'
   inclusionPriority: 1
   suggestionPriority: 2
 
